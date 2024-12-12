@@ -1,0 +1,9 @@
+name = "rate-limit-worker"
+main = "src/index.ts"
+compatibility_date = "2023-12-01"
+
+[vars]
+DEFAULT_RATE_LIMIT = "100"
+DEFAULT_WINDOW = "60"
+UPSTASH_REDIS_REST_URL = "https://central-opossum-41587.upstash.io"
+UPSTASH_REDIS_REST_TOKEN = "AaJzAAIjcDE0M2E0N2QzMDdlNmQ0ZTA3ODhiNDc2ZTRiZmY5ZjU5NnAxMA"

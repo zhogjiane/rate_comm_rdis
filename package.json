@@ -1,0 +1,23 @@
+{
+  "name": "rate-limit-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "0.1.11",
+    "@upstash/redis": "^1.28.4",
+    "hono": "3.11.7",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.22.1"
+  }
+}
